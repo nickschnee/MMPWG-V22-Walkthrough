@@ -2,7 +2,7 @@
 Dieses Repository enthält Downloads zur YouTube-Playlist und alle Zwischenstände.
 
 ## 00 Setup
-– VS Code Kurzanleitung für SFTP als PDF
+- VS Code Kurzanleitung für SFTP als PDF
 
 ## 02 – 09 Zwischenstände
 
@@ -14,12 +14,12 @@ Dieses Repository enthält Downloads zur YouTube-Playlist und alle Zwischenstän
 - Finales Projekt nach dem Walkthrough
 
 ## 94 Bausteine
-– PHP, JS, HTML und CSS Bausteine, die in den Videos verwendet werden
+- PHP, JS, HTML und CSS Bausteine, die in den Videos verwendet werden
 
 ## SQL
 - SQL Tabellen, die in den Videos verwendet werden
 – db_final enthält die gesamte Datenbank am Ende des Projekts
 
 ## 99 Master
-– Musterlösung des Projekts
-– Musterlösung weicht stellenweise von der erarbeiten Lösung in den Videos ab
+- Musterlösung des Projekts
+- Musterlösung weicht stellenweise von der erarbeiten Lösung in den Videos ab
