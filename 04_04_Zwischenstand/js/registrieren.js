@@ -1,20 +1,22 @@
-console.log("Hello Login");
+console.log("Hello Registrierung");
 
-function login(){
+function registrieren(){
 
+    let benutzername = document.querySelector("#benutzername").value;
     let email = document.querySelector("#email").value;
     let password = document.querySelector("#password").value;
 
-    console.log(email + password);
+    //console.log(benutzername + email + password);
 
 
 
 
     let formData = new FormData();
+    formData.append('benutzername', benutzername);
     formData.append('email', email);
     formData.append('password', password);
 
-    fetch("https://376009-18.web.fhgr.ch/php/login.php",
+    fetch("https://376009-18.web.fhgr.ch/php/registrieren.php",
         {
             body: formData,
             method: "post",

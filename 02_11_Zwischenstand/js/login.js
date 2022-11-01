@@ -1,6 +1,6 @@
 console.log("Hello Login");
 
-function login(){
+function login() {
 
     let email = document.querySelector("#email").value;
     let password = document.querySelector("#password").value;
@@ -22,13 +22,22 @@ function login(){
 
         .then((response) => {
 
-            return response.text();
+            return response.json();
 
         })
         .then((data) => {
 
-        // console.log(data);
-        document.querySelector('#nachricht').innerHTML = data;
+            console.log(data);
+            document.querySelector('#nachricht').innerHTML = data[0];
+
+            localStorage.setItem("userID", data[1]);
+            localStorage.setItem("token", data[2]);
+
+            if (data[1] != 0 && data[2] != 0) {
+
+                window.location.href = "https://376009-18.web.fhgr.ch/";
+
+            }
 
         })
 }
